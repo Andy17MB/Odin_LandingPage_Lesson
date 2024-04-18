@@ -1,0 +1,20 @@
+.header {
+    background-color: #1F2937;
+    font: roboto, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+}
+h1.header {
+    font: roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;   
+    margin: 12px; 
+}
+.headerlink {
+    border-color: red;
+    border-width: 5px;
+    padding: 6px;
+    margin: 6px;
+}
