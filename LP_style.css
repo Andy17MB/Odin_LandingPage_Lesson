@@ -5,16 +5,41 @@
     color: #E5E7EB;
     display: flex;
 }
-h1.header {
+.header h1{
     font: roboto, sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;   
     margin: 12px; 
+    flex: 3;
 }
 .headerlink {
-    border-color: red;
-    border-width: 5px;
     padding: 6px;
     margin: 6px;
+    flex: 1;
+}
+.hero {
+    background-color: #1F2937;
+    border 5px solid red;
+    font: roboto, sans-serif;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;  
+}
+.hero2 {
+    font: roboto, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB; 
+}
+.button {
+    font: roboto, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #3882F6;
+    width: 60px;
+    border: 8px solid #3882F6;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 12px;
 }
